@@ -13,8 +13,8 @@ numnumnum = np.array([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,2
 numnumnum += 1
 print(numnumnum)
 
-nothing = np.zeros(9999999999)
-print(nothing)
+#nothing = np.zeros(9999999999)
+#print(nothing)
 
 something = np.ones(9)
 print(something)
@@ -42,3 +42,26 @@ randoms = np.random.permutation(np.arange(1,1001))
 print(randoms)
 randoms2 = np.random.randint(1,1001)
 print(randoms2)
+random3 = np.random.rand(1,20)
+print(random3)
+print(random3.shape)
+
+reshape = np.arange(1,10).reshape(3,3)
+print(reshape)
+
+reshape2 = np.arange(1,37).reshape(6,6)
+print(reshape2)
+reshape3 = np.arange(1,37).reshape(1,36)
+print(reshape3)
+reshape4 = np.arange(1,37).reshape(2,18)
+print(reshape4)
+reshape5 = np.arange(1,37).reshape(3,12)
+print(reshape5)
+reshape6 = np.arange(1,37).reshape(4,9)
+print(reshape6)
+
+perm = np.random.permutation(np.arange(1,1001))
+print(perm)
+
+sort = np.sort(perm)
+print(sort)
